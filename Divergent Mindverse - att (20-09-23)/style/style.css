@@ -1,0 +1,50 @@
+/* Estilos para o modo claro (padrão) */
+body.light-mode {
+    background-color: white !important;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light {
+    background-color: rgb(255, 0, 144) !important;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark {
+    background-color: rgb(255, 0, 140) !important;
+}
+
+/* Adicionar estilo para diminuir a altura da navbar em ambos os modos */
+.navbar {
+    height: 70px !important; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilo para os botões de login com cantos arredondados em ambos os modos */
+.nav-link.btn-dark {
+    border-radius: 20px; /* Ajuste o valor conforme necessário para arredondar mais ou menos os cantos */
+}
+
+/* Estilizar o botão de login quando o mouse está em cima */
+.nav-link.btn-dark:hover {
+    background-color: rgb(255, 0, 140) !important; /* Cor de fundo quando hover */
+    color: #fff !important; /* Cor do texto quando hover */
+}
+
+
+/* Estilo para os botões da navbar quando o mouse está em cima */
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(255, 0, 140) !important; /* Altere esta cor para a cor desejada ao passar o mouse */
+}
+
