@@ -23,6 +23,7 @@ function setThemeMode() {
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
         body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
         navbar.classList.remove('navbar-dark-mode');
         navbar.classList.remove('navbar-dark');
         navbar.classList.add('navbar-light-mode');

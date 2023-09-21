@@ -1,6 +1,6 @@
 /* Estilos para o modo claro (padrão) */
 body.light-mode {
-    background-color: white !important;
+    background-color: #caeed1 !important;
     color: black;
 }
 
@@ -10,12 +10,12 @@ body.light-mode {
 
 /* Estilos para o modo claro (padrão) */
 .card.light-card {
-    background-color: #c4c1c1; /* Cor de fundo dos cards no modo claro */
+    background-color: #fabfb1; /* Cor de fundo dos cards no modo claro */
 }
 
 /* Estilos para o modo escuro */
 .card.dark-card {
-    background-color: #181818; /* Cor de fundo dos cards no modo escuro */
+    background-color: #7d4d42; /* Cor de fundo dos cards no modo escuro */
 }
 
 
@@ -23,14 +23,18 @@ body.light-mode {
     cursor: pointer;
 }
 
+.fa-moon{
+    color: white!important;
+}
+
 .navbar-light-mode {
-    background-color: rgb(192, 190, 192); /* Cor de fundo no modo claro */
-    color: black; /* Cor do texto no modo claro */
+    background-color: #ffb4a3; /* Cor de fundo no modo claro */
+    color: #c96237!important; /* Cor do texto no modo claro */
 }
 
 /* Estilos para o modo escuro */
 body.dark-mode {
-    background-color: #333 !important;
+    background-color: #4b6a52 !important;
     color: #fff !important;
 }
 
@@ -39,13 +43,17 @@ body.dark-mode {
 }
 
 .navbar-dark-mode {
-    background-color: #131313; /* Cor de fundo no modo escuro */
+    background-color: #6b453c; /* Cor de fundo no modo escuro */
     color: #fff !important; /* Cor do texto no modo escuro */
 }
 
 /* Adicionar estilo para diminuir a altura da navbar em ambos os modos */
 .navbar {
     min-height: 70px !important; /* Ajuste a altura conforme necessário */
+}
+
+.btn-dark{
+    background-color: #c96237!important;
 }
 
 /* Estilo para os botões de login com cantos arredondados em ambos os modos */
@@ -55,11 +63,11 @@ body.dark-mode {
 
 /* Estilizar o botão de login quando o mouse está em cima */
 .nav-link.btn-dark:hover {
-    background-color: rgb(145, 145, 145) !important; /* Cor de fundo quando hover */
+    background-color: #e77443 !important; /* Cor de fundo quando hover */
     color: #fff !important; /* Cor do texto quando hover */
 }
 
 /* Estilo para os botões da navbar quando o mouse está em cima */
 .navbar-nav .nav-item:hover .nav-link {
-    color: rgb(128, 128, 128) !important; /* Altere esta cor para a cor desejada ao passar o mouse */
+    color: #b65228 !important; /* Altere esta cor para a cor desejada ao passar o mouse */
 }
